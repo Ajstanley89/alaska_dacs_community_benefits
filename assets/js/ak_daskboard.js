@@ -1,10 +1,80 @@
 // map
-var map = L.map('regionalMap').setView([69.0579, -152.8628], 5);
+var facilityData = {'coords':[70.20349, -148.42633],
+                    'hoverText': 'Hypothetical DACS Facility'
+                };
+
+var injectionData = {'coords': [70.20023, -148.40982],
+                    'hoverText': 'Class VI Injection Well'
+                };
+
+var gasData = {'coords': [70.20035, -148.46054],
+                'hoverText': 'Gas Plant with CCS'
+                };
+
+var windData = [{'coords':[70.20471, -148.40855],
+                    'hoverText': 'New Wind Energy Turbine'},
+                {'coords': [70.20378, -148.43405],
+                    'hoverText': 'New Wind Energy Turbine'},
+                {'coords': [70.19342, -148.43593],
+                    'hoverText': 'New Wind Energy Facility'}];
+
+var seaWaterData = {'coords': [70.41258, -148.53073],
+                'hoverText': 'Seawater Treatment Plant'
+                };
+
+var map = L.map('regionalMap').setView(facilityData.coords, 11);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
+
+// custom icons
+var LeafIcon = L.Icon.extend({
+    options: {
+        iconSize:     [64, 64], // size of the icon
+        // shadowSize:   [50, 64], // size of the shadow
+        iconAnchor:   [32, 48], // point of the icon which will correspond to marker's location
+        // shadowAnchor: [4, 62],  // the same for the shadow
+        popupAnchor:  [-3, -54] // point from which the popup should open relative to the iconAnchor
+    }
+});
+
+var facilityIcon = new LeafIcon({iconUrl: '../assets/icons/facilityIcon.png'}),
+    gasIcon = new LeafIcon({iconUrl: '../assets/icons/gasIcon.png'}),
+    windIcon = new LeafIcon({iconUrl: '../assets/icons/windIcon.png'});
+
+// Show markers
+addMarkers(facilityData, facilityIcon);
+addMarkers(gasData, gasIcon);
+addMarkers(seaWaterData, facilityIcon)
+
+windData.forEach(d => addMarkers(d, windIcon));
+
+L.marker(injectionData.coords).addTo(map).bindPopup(injectionData.hoverText);
+
+var pipeline = new L.Polyline([facilityData.coords, injectionData.coords], {
+    color: 'blue',
+    weight: 5,
+    opacity: 0.75,
+    smoothFactor: 1
+})
+
+var ccsPipeline = new L.Polyline([gasData.coords, injectionData.coords], {
+    color: 'blue',
+    weight: 5,
+    opacity: 0.75,
+    smoothFactor: 1
+})
+
+map.addLayer(pipeline.bindPopup('Pipeline from Facility to Injection Site'))
+map.addLayer(ccsPipeline.bindPopup('Pipeline from Gas Plant to Injection Site'))
+
+function addMarkers(data, custom_icon) {
+    L.marker(data.coords, {icon: custom_icon})
+        .addTo(map)
+        .bindPopup(data.hoverText)
+}
 
 // Need markers for eachmain area the cohort mentioned, plus the hypothetical facility
 
