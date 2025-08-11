@@ -1,0 +1,170 @@
+[
+  {
+    "date": "2024-01-01",
+    "resources": {
+      "energy": {
+        "Solar Energy Use (MWh)": 12048.19,
+        "Gas Energy Use with CCS (MWh)": 48192.77
+      },
+      "water": {
+        "Recycled Water Use (m3)": 56224.9,
+        "Ocean Desalination Water Use (m3)": 24096.38
+      }
+    },
+    "CO2 Removal (tonnes)": 40160.64
+  },
+  {
+    "date": "2024-02-01",
+    "resources": {
+      "energy": {
+        "Solar Energy Use (MWh)": 12048.19,
+        "Gas Energy Use with CCS (MWh)": 48192.77
+      },
+      "water": {
+        "Recycled Water Use (m3)": 56224.9,
+        "Ocean Desalination Water Use (m3)": 24096.38
+      }
+    },
+    "CO2 Removal (tonnes)": 40160.64
+  },
+  {
+    "date": "2024-03-01",
+    "resources": {
+      "energy": {
+        "Solar Energy Use (MWh)": 24096.38,
+        "Gas Energy Use with CCS (MWh)": 36144.58
+      },
+      "water": {
+        "Recycled Water Use (m3)": 64257.02,
+        "Ocean Desalination Water Use (m3)": 16064.26
+      }
+    },
+    "CO2 Removal (tonnes)": 40160.64
+  },
+  {
+    "date": "2024-04-01",
+    "resources": {
+      "energy": {
+        "Solar Energy Use (MWh)": 32379.52,
+        "Gas Energy Use with CCS (MWh)": 32379.52
+      },
+      "water": {
+        "Recycled Water Use (m3)": 69076.3,
+        "Ocean Desalination Water Use (m3)": 17269.08
+      }
+    },
+    "CO2 Removal (tonnes)": 43172.69
+  },
+  {
+    "date": "2024-05-01",
+    "resources": {
+      "energy": {
+        "Solar Energy Use (MWh)": 38855.42,
+        "Gas Energy Use with CCS (MWh)": 25903.62
+      },
+      "water": {
+        "Recycled Water Use (m3)": 77710.84,
+        "Ocean Desalination Water Use (m3)": 8634.54
+      }
+    },
+    "CO2 Removal (tonnes)": 43172.69
+  },
+  {
+    "date": "2024-06-01",
+    "resources": {
+      "energy": {
+        "Solar Energy Use (MWh)": 51807.23,
+        "Gas Energy Use with CCS (MWh)": 12951.81
+      },
+      "water": {
+        "Recycled Water Use (m3)": 77710.84,
+        "Ocean Desalination Water Use (m3)": 8634.54
+      }
+    },
+    "CO2 Removal (tonnes)": 43172.69
+  },
+  {
+    "date": "2024-07-01",
+    "resources": {
+      "energy": {
+        "Solar Energy Use (MWh)": 51807.23,
+        "Gas Energy Use with CCS (MWh)": 12951.81
+      },
+      "water": {
+        "Recycled Water Use (m3)": 77710.84,
+        "Ocean Desalination Water Use (m3)": 8634.54
+      }
+    },
+    "CO2 Removal (tonnes)": 43172.69
+  },
+  {
+    "date": "2024-08-01",
+    "resources": {
+      "energy": {
+        "Solar Energy Use (MWh)": 51807.23,
+        "Gas Energy Use with CCS (MWh)": 12951.81
+      },
+      "water": {
+        "Recycled Water Use (m3)": 77710.84,
+        "Ocean Desalination Water Use (m3)": 8634.54
+      }
+    },
+    "CO2 Removal (tonnes)": 43172.69
+  },
+  {
+    "date": "2024-09-01",
+    "resources": {
+      "energy": {
+        "Solar Energy Use (MWh)": 38855.42,
+        "Gas Energy Use with CCS (MWh)": 25903.62
+      },
+      "water": {
+        "Recycled Water Use (m3)": 69076.3,
+        "Ocean Desalination Water Use (m3)": 17269.08
+      }
+    },
+    "CO2 Removal (tonnes)": 43172.69
+  },
+  {
+    "date": "2024-10-01",
+    "resources": {
+      "energy": {
+        "Solar Energy Use (MWh)": 30120.48,
+        "Gas Energy Use with CCS (MWh)": 30120.48
+      },
+      "water": {
+        "Recycled Water Use (m3)": 64257.02,
+        "Ocean Desalination Water Use (m3)": 16064.26
+      }
+    },
+    "CO2 Removal (tonnes)": 40160.64
+  },
+  {
+    "date": "2024-11-01",
+    "resources": {
+      "energy": {
+        "Solar Energy Use (MWh)": 18072.29,
+        "Gas Energy Use with CCS (MWh)": 42168.67
+      },
+      "water": {
+        "Recycled Water Use (m3)": 56224.9,
+        "Ocean Desalination Water Use (m3)": 24096.38
+      }
+    },
+    "CO2 Removal (tonnes)": 40160.64
+  },
+  {
+    "date": "2024-12-01",
+    "resources": {
+      "energy": {
+        "Solar Energy Use (MWh)": 12048.19,
+        "Gas Energy Use with CCS (MWh)": 48192.77
+      },
+      "water": {
+        "Recycled Water Use (m3)": 56224.9,
+        "Ocean Desalination Water Use (m3)": 24096.38
+      }
+    },
+    "CO2 Removal (tonnes)": 40160.64
+  }
+]

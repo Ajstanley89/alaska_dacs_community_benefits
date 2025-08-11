@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Dashboard</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+
+		<!-- leaflet -->
+		 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+		<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+			integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+			crossorigin=""></script>
+
+		<!-- D3 -->
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js" integrity="sha512-vc58qvvBdrDR4etbxMdlTt4GBQk1qjvyORR2nrsPsFPyrs+/u5c3+1Ct6upOgdZoIl7eq6k3a1UPDSNAQi/32A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="../images/bowhead-breach-Jun-29-2022-07-28-13-35-PM.webp" alt="" /></span>
+					<h1 id="logo"><a href="#">Captain Strike Carbon Removal</a></h1>
+					<p>We want to do whale for the environment by capturing atmospheric CO<sub>2</sub> and stroring it underground in North Slope Alaska</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="../">Home</a></li>
+						<li><a href="#regionalData" class="active">Regional Air Quality</a></li>
+						<li><a href="#controlChartSection">Impacts Since Construction</a></li>
+						<li><a href="#facilityMonitoring">Facility Monitoring</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Main -->
+					<div id="main">
+						<!-- One -->
+						<section id="regionalData">
+							<div class="container">
+								<h2>Map of Surrounding Area</h2>
+								<div id="regionalMap"></div>
+								<p>We're Still working on Our Interactive Map. When Complete, it will show markers for:</p>
+								<ul>
+									<li>Air Quality in 4 Key North Slope Regions</li>
+									<li>Facility Location</li>
+									<li>CO2 Injection Point</li>
+									<li>Energy Sources to Power Facility</li>
+									<li>Ocean Desalination Equipment</li>
+								</ul>
+							</div>
+						</div>
+						</section>
+						<hr>
+						<!-- Two -->
+							<section id="controlChartSection">
+								<div class='chart-container' style="position: relative;">
+									<H2>Impacts Since Site Construction</H2>	
+									<div class="row">
+										<div class="col-7">
+											<div id="controlChartButtons" class="button-container"></div>
+										</div>
+										<!-- <div class="col-5">
+										</div> -->
+									</div>
+									<div class="row">
+										<div class="col-7-small">
+											<h3>Control Chart</h3>
+											<div id="controlChart"></div>
+										</div>
+										<div class="col-7-xsmall">
+											<h3>CO<sub>2</sub> Removed vs Emitted</h3>
+											<div id="pieChart"></div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+						<hr>
+						<!-- Three -->
+							<section id="facilityMonitoring">
+								<div class="chart-container">
+									<div class="row">
+										<div class="col-12-xsmall">
+											<H3>Facility Monitoring</H3>
+											<h4>Select Metric to Monitor:</h4>
+											<div id="facilityChartButtons"></div>
+											<div id="facilityChart"></div>
+										</div>
+									</div>
+								</div>
+							</section>
+						<hr>
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+			<script src="../assets/js/ak_daskboard.js"></script>
+
+	</body>
+</html>

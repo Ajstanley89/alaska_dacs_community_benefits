@@ -1,0 +1,434 @@
+[
+  {
+    "date": "2024-01-01",
+    "metric": "energy",
+    "sub_metric": "Solar Energy Use (MWh)",
+    "value": 9289.71
+  },
+  {
+    "date": "2024-01-01",
+    "metric": "energy",
+    "sub_metric": "Gas Energy Use with CCS (MWh)",
+    "value": 37729.57
+  },
+  {
+    "date": "2024-01-01",
+    "metric": "energy",
+    "sub_metric": "Wind Energy Use (MWh)",
+    "value": 15673.09
+  },
+  {
+    "date": "2024-01-01",
+    "metric": "water",
+    "sub_metric": "Recycled Water Use (m3)",
+    "value": 55835.64
+  },
+  {
+    "date": "2024-01-01",
+    "metric": "water",
+    "sub_metric": "Ocean Desalination Water Use (m3)",
+    "value": 23374.62
+  },
+  {
+    "date": "2024-01-01",
+    "metric": "CO2",
+    "sub_metric": "CO2 Removal (tonnes)",
+    "value": 40394.29
+  },
+  {
+    "date": "2024-02-01",
+    "metric": "energy",
+    "sub_metric": "Solar Energy Use (MWh)",
+    "value": 8667.29
+  },
+  {
+    "date": "2024-02-01",
+    "metric": "energy",
+    "sub_metric": "Gas Energy Use with CCS (MWh)",
+    "value": 35486.6
+  },
+  {
+    "date": "2024-02-01",
+    "metric": "energy",
+    "sub_metric": "Wind Energy Use (MWh)",
+    "value": 14717.96
+  },
+  {
+    "date": "2024-02-01",
+    "metric": "water",
+    "sub_metric": "Recycled Water Use (m3)",
+    "value": 58378.76
+  },
+  {
+    "date": "2024-02-01",
+    "metric": "water",
+    "sub_metric": "Ocean Desalination Water Use (m3)",
+    "value": 23447.14
+  },
+  {
+    "date": "2024-02-01",
+    "metric": "CO2",
+    "sub_metric": "CO2 Removal (tonnes)",
+    "value": 36768.24
+  },
+  {
+    "date": "2024-03-01",
+    "metric": "energy",
+    "sub_metric": "Solar Energy Use (MWh)",
+    "value": 19756.18
+  },
+  {
+    "date": "2024-03-01",
+    "metric": "energy",
+    "sub_metric": "Gas Energy Use with CCS (MWh)",
+    "value": 29464.3
+  },
+  {
+    "date": "2024-03-01",
+    "metric": "energy",
+    "sub_metric": "Wind Energy Use (MWh)",
+    "value": 12305.12
+  },
+  {
+    "date": "2024-03-01",
+    "metric": "water",
+    "sub_metric": "Recycled Water Use (m3)",
+    "value": 65265.0
+  },
+  {
+    "date": "2024-03-01",
+    "metric": "water",
+    "sub_metric": "Ocean Desalination Water Use (m3)",
+    "value": 15295.92
+  },
+  {
+    "date": "2024-03-01",
+    "metric": "CO2",
+    "sub_metric": "CO2 Removal (tonnes)",
+    "value": 41961.27
+  },
+  {
+    "date": "2024-04-01",
+    "metric": "energy",
+    "sub_metric": "Solar Energy Use (MWh)",
+    "value": 30165.13
+  },
+  {
+    "date": "2024-04-01",
+    "metric": "energy",
+    "sub_metric": "Gas Energy Use with CCS (MWh)",
+    "value": 26142.25
+  },
+  {
+    "date": "2024-04-01",
+    "metric": "energy",
+    "sub_metric": "Wind Energy Use (MWh)",
+    "value": 9936.6
+  },
+  {
+    "date": "2024-04-01",
+    "metric": "water",
+    "sub_metric": "Recycled Water Use (m3)",
+    "value": 64982.94
+  },
+  {
+    "date": "2024-04-01",
+    "metric": "water",
+    "sub_metric": "Ocean Desalination Water Use (m3)",
+    "value": 17914.52
+  },
+  {
+    "date": "2024-04-01",
+    "metric": "CO2",
+    "sub_metric": "CO2 Removal (tonnes)",
+    "value": 40758.0
+  },
+  {
+    "date": "2024-05-01",
+    "metric": "energy",
+    "sub_metric": "Solar Energy Use (MWh)",
+    "value": 37318.13
+  },
+  {
+    "date": "2024-05-01",
+    "metric": "energy",
+    "sub_metric": "Gas Energy Use with CCS (MWh)",
+    "value": 23121.04
+  },
+  {
+    "date": "2024-05-01",
+    "metric": "energy",
+    "sub_metric": "Wind Energy Use (MWh)",
+    "value": 6715.46
+  },
+  {
+    "date": "2024-05-01",
+    "metric": "water",
+    "sub_metric": "Recycled Water Use (m3)",
+    "value": 73890.37
+  },
+  {
+    "date": "2024-05-01",
+    "metric": "water",
+    "sub_metric": "Ocean Desalination Water Use (m3)",
+    "value": 8710.27
+  },
+  {
+    "date": "2024-05-01",
+    "metric": "CO2",
+    "sub_metric": "CO2 Removal (tonnes)",
+    "value": 42848.62
+  },
+  {
+    "date": "2024-06-01",
+    "metric": "energy",
+    "sub_metric": "Solar Energy Use (MWh)",
+    "value": 46353.4
+  },
+  {
+    "date": "2024-06-01",
+    "metric": "energy",
+    "sub_metric": "Gas Energy Use with CCS (MWh)",
+    "value": 11463.98
+  },
+  {
+    "date": "2024-06-01",
+    "metric": "energy",
+    "sub_metric": "Wind Energy Use (MWh)",
+    "value": 6424.15
+  },
+  {
+    "date": "2024-06-01",
+    "metric": "water",
+    "sub_metric": "Recycled Water Use (m3)",
+    "value": 70902.96
+  },
+  {
+    "date": "2024-06-01",
+    "metric": "water",
+    "sub_metric": "Ocean Desalination Water Use (m3)",
+    "value": 8549.93
+  },
+  {
+    "date": "2024-06-01",
+    "metric": "CO2",
+    "sub_metric": "CO2 Removal (tonnes)",
+    "value": 46000.03
+  },
+  {
+    "date": "2024-07-01",
+    "metric": "energy",
+    "sub_metric": "Solar Energy Use (MWh)",
+    "value": 42353.33
+  },
+  {
+    "date": "2024-07-01",
+    "metric": "energy",
+    "sub_metric": "Gas Energy Use with CCS (MWh)",
+    "value": 12382.39
+  },
+  {
+    "date": "2024-07-01",
+    "metric": "energy",
+    "sub_metric": "Wind Energy Use (MWh)",
+    "value": 6081.75
+  },
+  {
+    "date": "2024-07-01",
+    "metric": "water",
+    "sub_metric": "Recycled Water Use (m3)",
+    "value": 74134.62
+  },
+  {
+    "date": "2024-07-01",
+    "metric": "water",
+    "sub_metric": "Ocean Desalination Water Use (m3)",
+    "value": 8766.69
+  },
+  {
+    "date": "2024-07-01",
+    "metric": "CO2",
+    "sub_metric": "CO2 Removal (tonnes)",
+    "value": 43924.48
+  },
+  {
+    "date": "2024-08-01",
+    "metric": "energy",
+    "sub_metric": "Solar Energy Use (MWh)",
+    "value": 45238.75
+  },
+  {
+    "date": "2024-08-01",
+    "metric": "energy",
+    "sub_metric": "Gas Energy Use with CCS (MWh)",
+    "value": 12243.04
+  },
+  {
+    "date": "2024-08-01",
+    "metric": "energy",
+    "sub_metric": "Wind Energy Use (MWh)",
+    "value": 6386.87
+  },
+  {
+    "date": "2024-08-01",
+    "metric": "water",
+    "sub_metric": "Recycled Water Use (m3)",
+    "value": 86083.81
+  },
+  {
+    "date": "2024-08-01",
+    "metric": "water",
+    "sub_metric": "Ocean Desalination Water Use (m3)",
+    "value": 9010.86
+  },
+  {
+    "date": "2024-08-01",
+    "metric": "CO2",
+    "sub_metric": "CO2 Removal (tonnes)",
+    "value": 39127.44
+  },
+  {
+    "date": "2024-09-01",
+    "metric": "energy",
+    "sub_metric": "Solar Energy Use (MWh)",
+    "value": 35163.47
+  },
+  {
+    "date": "2024-09-01",
+    "metric": "energy",
+    "sub_metric": "Gas Energy Use with CCS (MWh)",
+    "value": 20655.99
+  },
+  {
+    "date": "2024-09-01",
+    "metric": "energy",
+    "sub_metric": "Wind Energy Use (MWh)",
+    "value": 9850.49
+  },
+  {
+    "date": "2024-09-01",
+    "metric": "water",
+    "sub_metric": "Recycled Water Use (m3)",
+    "value": 63351.95
+  },
+  {
+    "date": "2024-09-01",
+    "metric": "water",
+    "sub_metric": "Ocean Desalination Water Use (m3)",
+    "value": 16263.1
+  },
+  {
+    "date": "2024-09-01",
+    "metric": "CO2",
+    "sub_metric": "CO2 Removal (tonnes)",
+    "value": 40426.43
+  },
+  {
+    "date": "2024-10-01",
+    "metric": "energy",
+    "sub_metric": "Solar Energy Use (MWh)",
+    "value": 24640.11
+  },
+  {
+    "date": "2024-10-01",
+    "metric": "energy",
+    "sub_metric": "Gas Energy Use with CCS (MWh)",
+    "value": 21922.98
+  },
+  {
+    "date": "2024-10-01",
+    "metric": "energy",
+    "sub_metric": "Wind Energy Use (MWh)",
+    "value": 11640.77
+  },
+  {
+    "date": "2024-10-01",
+    "metric": "water",
+    "sub_metric": "Recycled Water Use (m3)",
+    "value": 63929.17
+  },
+  {
+    "date": "2024-10-01",
+    "metric": "water",
+    "sub_metric": "Ocean Desalination Water Use (m3)",
+    "value": 14896.35
+  },
+  {
+    "date": "2024-10-01",
+    "metric": "CO2",
+    "sub_metric": "CO2 Removal (tonnes)",
+    "value": 36650.47
+  },
+  {
+    "date": "2024-11-01",
+    "metric": "energy",
+    "sub_metric": "Solar Energy Use (MWh)",
+    "value": 13993.12
+  },
+  {
+    "date": "2024-11-01",
+    "metric": "energy",
+    "sub_metric": "Gas Energy Use with CCS (MWh)",
+    "value": 30184.36
+  },
+  {
+    "date": "2024-11-01",
+    "metric": "energy",
+    "sub_metric": "Wind Energy Use (MWh)",
+    "value": 14725.83
+  },
+  {
+    "date": "2024-11-01",
+    "metric": "water",
+    "sub_metric": "Recycled Water Use (m3)",
+    "value": 59166.84
+  },
+  {
+    "date": "2024-11-01",
+    "metric": "water",
+    "sub_metric": "Ocean Desalination Water Use (m3)",
+    "value": 23217.36
+  },
+  {
+    "date": "2024-11-01",
+    "metric": "CO2",
+    "sub_metric": "CO2 Removal (tonnes)",
+    "value": 38763.03
+  },
+  {
+    "date": "2024-12-01",
+    "metric": "energy",
+    "sub_metric": "Solar Energy Use (MWh)",
+    "value": 9202.39
+  },
+  {
+    "date": "2024-12-01",
+    "metric": "energy",
+    "sub_metric": "Gas Energy Use with CCS (MWh)",
+    "value": 37063.81
+  },
+  {
+    "date": "2024-12-01",
+    "metric": "energy",
+    "sub_metric": "Wind Energy Use (MWh)",
+    "value": 15422.07
+  },
+  {
+    "date": "2024-12-01",
+    "metric": "water",
+    "sub_metric": "Recycled Water Use (m3)",
+    "value": 52596.73
+  },
+  {
+    "date": "2024-12-01",
+    "metric": "water",
+    "sub_metric": "Ocean Desalination Water Use (m3)",
+    "value": 24683.21
+  },
+  {
+    "date": "2024-12-01",
+    "metric": "CO2",
+    "sub_metric": "CO2 Removal (tonnes)",
+    "value": 44742.27
+  }
+]
